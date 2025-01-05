@@ -21,7 +21,7 @@ def setup_parser():
     parser.add_argument("--config", type=str, help="Choose pre-defined configuration from 1-6")
     parser.add_argument("--list-config", action="store_true")
 
-    # TODO: add argument for 'mem_alloc' and 'nproc'
+    # TODO: add argument for 'mem_alloc' and 'nproc'. Currently, hard-coded to mem_alloc=16, nproc=10.
     # TODO: add argument/config for defining your own methods
 
     return parser
